@@ -48,15 +48,3 @@ def copy_photo():
 
 if __name__ == "__main__":
     copy_photo()
-
-
-# vk_id = str(input('Введите vk_id для сохранения фотографий: '))
-# vk_client = VkUser(token, '5.131')
-# pprint(vk_client.get_photos('1089625'))
-# vk_client.get_photos('1089625')
-# vk_client.get_albums('1089625')
-# vk_client.get_photos_from_albums("1089625")
-# vk_client.get_album_photos('1089625')
-# vk_client.get_photos_to_gdrive('1089625')
-
-# 1089625

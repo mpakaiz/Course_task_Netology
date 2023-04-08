@@ -8,11 +8,8 @@ from tqdm import tqdm
 
 
 TOKEN = str(input('Введите токен с Полигона Яндекс.Диска: '))
-# TOKEN = 'y0_AgAAAAACohocAADLWwAAAADezu9emLKFzwSpRx25Ah6D94krf7IB0kM'
-ya = YandexDisk(token=TOKEN)
-# 1089625
 
-# 'y0_AgAAAAACohocAADLWwAAAADezu9emLKFzwSpRx25Ah6D94krf7IB0kM'
+ya = YandexDisk(token=TOKEN)
 
 
 class VkUser:

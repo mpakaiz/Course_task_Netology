@@ -1,5 +1,6 @@
 import requests
 
+
 class YandexDisk:
 
     def __init__(self, token):
@@ -31,4 +32,3 @@ class YandexDisk:
         params = {'path': f'{folder_name}', 'overwrite': 'false'}
         response = requests.put(url=url, headers=headers, params=params)
         return folder_name
-
